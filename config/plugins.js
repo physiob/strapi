@@ -4,6 +4,12 @@ module.exports = ({ env }) => ({
       jwtSecret: env("JWT_SECRET"),
     },
   },
+
+  'populate-all': {
+    enabled: true,
+  },
+
+
   upload: {
     config: {
       provider: "local",
