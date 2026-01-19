@@ -84,6 +84,20 @@
       "component": "blocks.rich-text",
       "repeatable": false,
       "required": true
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::page.page",
+      "inversedBy": "blogParent"
+    },
+    "listingDescription": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

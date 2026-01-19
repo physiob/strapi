@@ -80,8 +80,15 @@
         "conditions_group",
         "condition",
         "blogPost",
+        "blogPost_hub",
         "generic"
       ]
+    },
+    "blogParent": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-post.blog-post",
+      "mappedBy": "parent"
     }
   }
 }
