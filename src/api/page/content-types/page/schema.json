@@ -56,15 +56,15 @@
     },
     "children": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::page.page",
-      "inversedBy": "parent"
+      "mappedBy": "parent"
     },
     "parent": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::page.page",
-      "mappedBy": "children"
+      "inversedBy": "children"
     },
     "pageType": {
       "type": "enumeration",
