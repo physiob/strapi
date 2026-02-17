@@ -25,7 +25,7 @@
     "react-router-dom": "^6.0.0",
     "strapi-plugin-populate-all": "^1.4.0",
     "strapi-v5-plugin-populate-deep": "^4.0.5",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.3.8"
   },
   "engines": {
   "node": ">=20 <=24",
